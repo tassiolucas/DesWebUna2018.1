@@ -1,0 +1,34 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interface Humano-Computador - Laboratório - Prática 03 - Exercício 03</title>
+    <link rel="stylesheet" href="pratica03exercicio03.css">
+</head>
+<body>
+    <!-- Comentários -->
+    <h1 id="titulo">Programa de Boas Vindas</h1>
+<script>
+    var n1 = prompt("Insira o primeiro número:");
+    var n2 = prompt ("Insira o segundo número:");
+
+    n1 = parseInt(n1);
+    n2 = parseInt(n2);
+
+    var soma = n1 + n2;
+    var subtracao = n1 - n2;
+    var multiplicacao = n1 * n2;
+    var divisao = n1 / n2;
+    var resto = n1 % n2;
+
+    document.write("<div class='numero'> Primeiro número: " + n1 + ".</div>");
+    document.write("<div class='numero'> Segundo número: " + n2 + ".</div>");
+    document.write("<div id='soma'> Soma: " + soma + ".</div>");
+    document.write("<div id='subtracao'> Subtração: " + subtracao + ".</div>");
+    document.write("<div id='multiplicacao'> Multiplicação: " + multiplicacao + ".</div>");
+    document.write("<div id='divisao'> Divisão: " + divisao + ".</div>");
+    document.write("<div id='resto'> Resto: " + resto + ".</div>");
+</script>
+</body>
+</html>
