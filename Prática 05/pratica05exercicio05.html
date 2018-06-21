@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UNA Análise e Desenvolvimento de Sistemas - Prática 05 - Exercício 05</title>
+</head>
+<body>
+    Cidade: <input name="cidade" type="text" size="50" maxlength="10" placeholder="informe o nome da primeira cidade"><br>
+    Cidade: <input name="cidade" type="text" size="50" maxlength="10" placeholder="informe o nome da segunda cidade"><br>
+
+    <button onclick="listar()">Listar Cidades</button>
+
+    <p id="resposta"></p>
+
+    <script>
+        function listar() {
+            var i, vetor = document.getElementsByName("cidade");
+            for (i=0; vetor.length; i++)
+            document.getElementById("resposta").innerHTML += "Valor: " + vetor[i].value + ", " +
+            vetor[i].tagName + ", " + "Tag HTML: " +
+            vetor[i].size + ", " + "Número máximo de caracteres do string informado: " + vetor[i].maxLength + ", " +
+            "Placeholder: " + vetor[i].placeholder + "<br>";
+        }
+    </script>
+</body>
+</html>
