@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>UNA Análise e Desenvolvimento de Sistemas - Prática 06 - Exercício 04</title>
+    <script type="text/javascript" src="pratica06exercicio04.js"></script>
+    <link rel="stylesheet" href="pratica06exercicios04.css">
 </head>
+
 <body>
-    
+    <select id="seletor" onchange="selecao()">
+        <option value="1">Área de um retângulo</option>
+        <option value="2">Área de um triângulo</option>
+        <option value="3">Área de um círculo</option>
+        <option value="4">Área de um trapézio</option>
+    </select>
+
+   <div>Valor 1: <input id="primeiroValor" type="number" size="50" maxlength="10" placeholder="informe o primeiro numero a ser calculado"></div>
+    <div id="segundoCampo">Valor 2: <input id="segundoValor" type="number" size="50" maxlength="10" placeholder="informe o segundo numero a ser calculado"></div> 
+    <div id="terceiroCampo">Valor 3: <input id="terceiroValor" type="number" size="50" maxlength="10" placeholder="informe o terceiro numero a ser calculado"></div> 
+
+    <div><button onclick="calcular()">Calcular</button></div>
+
+    <p id="resposta"></p>
+
+    <script>selecao()</script>
 </body>
 </html>
