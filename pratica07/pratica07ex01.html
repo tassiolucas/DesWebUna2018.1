@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prática 07 Ex. 01</title>
+        <script src="pratica07ex01.js"></script>
+        <link rel="stylesheet" href="pratica07ex01.css">
+    </head>
+        <body>
+            <main>
+                <h1>Área de Figuras Geométricas</h1>
+                
+                <div class="operador">
+                    <input type="radio" id="op1" name="operacao"
+                    onclick="operandosCirculo ()">
+                    <label for="op1">Área do círculo.</label> <br/>
+                </div>
+                
+                <div class="operador">
+                    <input type="radio" id="op2" name="operacao"
+                    onclick="operandosRetangulo ()">
+                    <label for="op2">Área do retângulo.</label> <br/>
+                </div>
+
+                <div class="operador">
+                    <input type="radio" id="op3" name="operacao"
+                    onclick="operandosTriangulo ()">
+                    <label for="op2">Área do triângulo.</label> <br/>
+                </div>
+
+                <div class="operador">
+                    <input type="radio" id="op4" name="operacao"
+                    onclick="operandosTrapezio ()">
+                    <label for="op2">Área do trapézio.</label> <br/>
+                </div>
+                
+                <div id="operandos"></div>
+                <div id="resultado"></div>
+                </main>
+        </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Prat.09 Exerc.01</title>
+    <script>
+        function getValores (){
+            var bool = true;
+            var x = bool.toString ();
+            var y = 10;
+        
+
+        document.getElementById ("resp").innerHTML = 
+        "Valor da variável boolena 'bool': " + bool + "<br/>" +
+        "Valor da string x: " + x + "<br/>" + 
+        "Conteúdo do vetor: " + ["casa", "jardim"].toString () + "<br/>" + 
+        "Número 10 em binário: " + y.toString (2) + "<br/>" + 
+        "Número 10 em octal: " + y.toString (8) + "<br/>" +
+        "Número 10 em binário: " + y.toString (16);  
+    }
+    </script>
+</head>
+<body>
+    <h1>Clique no botão para exibir os valores da variáveis.</h1>
+    <button onclick="getValores ()">OK</button>
+    <p id="resp"></p>
+</body>
+</html>

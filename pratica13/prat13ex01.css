@@ -1,0 +1,123 @@
+footer{
+    width: 75rem;
+    height: 1.2rem;
+    background-color: #ffbbdd;
+    position: fixed;
+    top: 632px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.titulo{
+    background-color: #ffbbdd;
+    text-align: center;
+    margin-top: -5rem;
+    height: 6rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.logoImg{
+    background-color: #ffbbdd;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+li{
+    display: inline-block;
+    background-color: #f0b0d0;
+    height: 2rem;
+    width: 6.5rem;
+    text-align: center;
+}
+nav{
+    background-color: #f0b0d0;
+    margin-top: -1rem;
+    font-family: Verdana;
+}
+a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 1.2rem;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    margin-left: -2.5rem;
+}
+.produto, .festa{
+    display: inline-block;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    border: 0.05rem #e5e5e5 solid;
+}
+.detalhes{
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.preco{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+body{
+    width: 75rem;
+    margin: 0 auto;
+    
+}
+section{
+    width: 75rem;
+}
+main{
+    max-width: 27rem;
+    margin: 2rem auto;
+    padding: 1rem 2rem 1rem 2rem ;
+    box-shadow: 0 6px 10px 0 #666;
+}
+.contatos{
+    height: 2rem;
+}
+label{
+    text-align: right;
+}
+#cbx, #botao{
+    text-align: right;
+}
+#back{
+    text-align: center;
+}
+#obs{
+    font-size: 13px;
+    text-align: left;
+    height: 2rem;
+    color: red;
+}
+.btn{
+    width: 20rem;
+    height: 2.5rem;
+    font-size: 16px;
+    background-color: #f0b0d0;
+    box-shadow: 0 6px 10px 0 #666;
+    color: white;
+    text-decoration-line: none;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+.botao {
+    width: 4rem;
+    height: 4rem;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0 6px 10px 0 #666;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    line-height: 3.8rem;
+    font-weight: bold;
+    margin: 2rem auto 0rem auto;
+}

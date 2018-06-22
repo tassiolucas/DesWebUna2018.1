@@ -1,0 +1,11 @@
+div{
+    width: 20rem;
+    height: 8rem;
+    background-color: gainsboro;
+    border: 1px black solid;
+    margin: 0 auto;
+    text-align: center;
+}
+input{
+    margin-top: 1rem;
+}

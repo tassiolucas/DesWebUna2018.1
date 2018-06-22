@@ -1,0 +1,15 @@
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    padding: px;
+}
+a {
+    color: blueviolet;
+    padding: 5px 15px;
+    border: 1px solid blueviolet;
+    background-color: #FF8C00;
+}
+a:hover{
+    color: white;
+}

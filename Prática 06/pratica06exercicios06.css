@@ -1,0 +1,22 @@
+div.input{
+    background-color:#e5d824;
+    border: 0.25rem #151260 solid;
+    width: 30rem;
+    height: 12rem;
+    margin: 0 auto;
+    text-align: center;
+}
+div.output{
+    background-color:#e5d824;
+    border: 0.25rem #151260 solid;
+    width: 15rem;
+    height: 11rem;
+    margin: 0 auto;
+    text-align: center;
+}
+input{
+    margin-top: 0.7rem;
+}
+#resp{
+    font-size: 1.5rem;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Confeitaria Maria Chocolate - Contatos</title>
+    <link rel="stylesheet" href="prat13ex01.css">
+    <script src="prat13ex01.js"></script>
+</head>
+<body>
+    <header>
+		<div class="logoImg">
+			<img src="imagens/logo.png" alt="Maria Chocolate" height="100" />
+		</div>
+
+		<div class="titulo">
+			<h1>Confeitando para a alegria da sua vida...</h1>
+		</div>
+
+    </header>
+    <nav>
+		<ul>
+			<li><a href="indexHome.html" >Home</a></li>
+			<li><a href="indexBolos.html" >Bolos</a></li>
+			<li><a href="indexTortas.html" >Tortas</a></li>
+			<li><a href="indexFestas.html" >Festas</a></li>
+			<li><a href="indexContatos.html" >Contatos</a></li>			
+        </ul>
+    </nav>   
+    <main>
+        <form action="indexResp.html" method="POST" onsubmit="return validar();">
+        <table>
+        <tr class="contatos">
+            <td><label for="nome">* Nome:</label></td>
+            <td><input type="text" id="nome"></td>
+        </tr>
+        <tr class="contatos">
+            <td><label for="nome">* E-mail:</label></td>
+            <td><input type="text" id="email"></td>
+        </tr>
+        <tr class="contatos">
+            <td><label for="contato">Tipo de contato:</label></td>
+            <td><select id="contato">
+                <option value=""></option>
+                <option value="1">Orçamento</option>
+                <option value="2">Elogio</option>
+                <option value="3">Reclamação</option>
+                <option value="4">Sugestão</option>
+                <option value="5">Dúvidas</option>
+                </select></td>
+        </tr>
+        <tr class="contatos">
+            <td><label for="mensagem">* Mensagem:</label></td>
+            <td><textarea id="mensagem" cols="40" rows="7"></textarea></td>
+        </tr>
+        <tr class="contatos">
+            <td colspan="2" id="cbx"><input type="checkbox">Quero receber mensagens deliciosas.</td> 
+        </tr>
+        <tr class="contatos">
+            <td colspan="2" id="botao"><input class="btn" type="submit" value="Enviar"/></td>
+        </tr>
+        <tr class="contatos">
+            <td colspan="2" id="obs"><label>* Campos obrigatórios</label></td>
+        </tr>
+        </table>
+    </main>
+    </form>
+    <footer>
+		Desenvolvido como exercício de CSS da aula de Fundamentos Web. &copy;Copyright 2017. Todos os Direitos Reservados
+	</footer>
+</body>
+</html>

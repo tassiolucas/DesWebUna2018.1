@@ -1,0 +1,63 @@
+h3{
+    text-align: center;
+}
+input{
+    margin-top: 0.2rem;
+}
+.aposta{
+    background-color: #9cd187;
+    border: 0.5rem #305b1f double;
+    width: 35rem;
+    height: 10.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    float: left;
+}
+#valor{
+    background-color: #9cd187;
+    border: 0.5rem #305b1f double;
+    width: 35rem;
+    height: 10.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    float: left;
+    font-size: 40px;
+}
+#numeros{
+    background-color: #9cd187;
+    border: 0.5rem #305b1f double;
+    width: 20rem;
+    height: 3rem;
+    margin: 0 auto;
+    text-align: center;
+    clear: left;
+    font-size: 25px;
+    text-decoration-line: none;
+}
+#resultado{
+    background-color: #9cd187;
+    border: 0.5rem #305b1f double;
+    width: 20rem;
+    height: 3rem;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 25px;
+}
+#premio{
+    background-color: #e2d453;
+    border: 0.5rem #877b10 double;
+    width: 25rem;
+    height: 5rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 35px;
+    text-decoration-line: none;
+}
+body{
+    background-color: gainsboro;
+    width: 77rem;
+    margin: 0 auto;
+}

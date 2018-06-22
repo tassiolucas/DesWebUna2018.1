@@ -1,0 +1,48 @@
+body{
+    background-color: gainsboro;
+}
+table, tr, th, td{
+    border: 2px white solid;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+tr{
+    vertical-align: top;
+}
+table{
+    margin: 0 auto;
+}
+td, th{
+    text-align: left;
+    width: 15rem;
+}
+thead{
+    background-color: #1a8229;
+    color: white;
+    font-size: 1.5rem;
+}
+tr.corpo:nth-child(even){
+    background-color: #99a0aa;
+}
+tr.corpo:nth-child(odd){
+    background-color: #b8bec6;
+}
+tr.foot{
+    background-color: #f2b14f;
+}
+tr.corpo:hover{
+    background-color: blue !important;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+tr.foot:hover{
+    background-color: orangered !important;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+div{
+    font-size: 1.2rem;
+}

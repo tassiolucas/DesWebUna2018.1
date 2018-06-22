@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Prat.10 Exerc.02</title>
+    <link rel="stylesheet" href="prat10ex03.css">
+    <script src="prat10ex03.js"></script>
+</head>
+<body>
+    <table onmouseout="apagar ()">
+        <thead>
+            <th>Disciplina</th>
+            <th>Aluno</th>
+            <th>P1</th>
+            <th>P2</th>
+            <th>Total</th>
+        </thead>
+        <tbody>
+            <tr onmouseover="detalhes ('line1')" target="blank_" class="web">
+                <td rowspan="5">Web</td>
+                <td>José da Silva</td>
+                <td>30</td>
+                <td>10</td>
+                <td>40</td>
+            </tr>
+            <tr onmouseover="detalhes ('line2')" target="blank_" class="web">
+                <td>Maria da Silva</td>
+                <td>25</td>
+                <td>7</td>
+                <td>32</td>
+            </tr>
+            <tr onmouseover="detalhes ('line3')" target="blank_" class="web">
+                <td>Ronildo Graves</td>
+                <td>12</td>
+                <td>2</td>
+                <td>15</td>
+            
+            <tr onmouseover="detalhes ('line4')" target="blank_" class="web">
+                <td>Joselita Santos</td>
+                <td>15</td>
+                <td>8</td>
+                <td>23</td>
+            </tr>
+            <tr onmouseover="detalhes ('line5')" target="blank_" class="footweb">
+                <td colspan="4">Média Web: 27,5</td>
+            </tr>
+            <tr onmouseover="detalhes ('line6')" target="blank_" class="logic">
+                <td rowspan="6">Lógica de Programação</td>
+                <td>José da Silva</td>
+                <td>20</td>
+                <td>9</td>
+                <td>29</td>
+            </tr>
+            <tr onmouseover="detalhes ('line7')" target="blank_" class="logic">
+                <td>Maria da Silva</td>
+                <td colspan="2">32</td>
+                <td>32</td>
+            </tr>
+            <tr onmouseover="detalhes ('line8')" target="blank_" class="logic">
+                <td>Ronildo Graves</td>
+                <td>18</td>
+                <td>5</td>
+                <td>23</td>
+            </tr>
+            <tr onmouseover="detalhes ('line9')" target="blank_" class="logic">
+                <td>Ronildo Campos</td>
+                <td colspan="2">35</td>
+                <td>35</td>
+            </tr>
+            <tr onmouseover="detalhes ('line10')" target="blank_" class="logic">
+                <td>Janaína Murtosa</td>
+                <td>30</td>
+                <td>10</td>
+                <td>40</td>
+            </tr>
+            <tr onmouseover="detalhes ('line11')" target="blank_" class="footlogic">
+                <td colspan="5">Média Lógica de Program.: 31,8</td>
+            </tr>
+        </tbody>
+    </table>
+    <div><br><br></div>
+    <div id="texto"></div>
+</body>
+</html>

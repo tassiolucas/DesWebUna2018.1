@@ -1,0 +1,39 @@
+body{
+    background-color: gainsboro;
+}
+table, tr, th, td{
+    border: 2px white solid;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+tr{
+    vertical-align: top;
+}
+table{
+    margin: 0 auto;
+}
+td, th{
+    text-align: left;
+    width: 12rem;
+}
+thead{
+    background-color: #3347c6;
+    color: white;
+    font-size: 1.5rem;
+}
+tr.web, tr.footweb{
+    background-color: #afea9d;
+}
+tr.logic, tr.footlogic{
+    background-color:  #f2b14f;
+}
+tr.web:hover, tr.footweb:hover, tr.logic:hover, tr.footlogic:hover{
+    background-color: #2f0163 !important;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+div{
+    font-size: 1.5rem;
+}

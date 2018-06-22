@@ -1,0 +1,44 @@
+body{
+    max-width: 77.5rem;
+    margin: 0 auto;
+}
+nav{
+    border: 1px purple solid;
+    background-color: #c58cea;
+    position: relative;
+    width: 15rem;
+    height: 12rem;
+    left: 5px;
+    top: 8px;
+}
+figure{
+    border: 1px yellow solid;
+    background-color: #e3e589;
+    position: relative;
+    width: 15rem;
+    height: 12rem;
+    top: 5px;
+    left: -35px;
+}
+div{
+    border: 1px orangered solid;
+}
+section{
+    position: relative;
+    border: 1px blue solid;
+    background-color: #929de5;
+    width: 60rem;
+    height: 126.2px;
+    left: 270px;
+    top: -412px;
+    margin-top: 0.5rem;
+}
+footer{
+    border: 1px green solid;
+    background-color: greenyellow;
+    position: relative;
+    top: 110px;
+    width: 77.5rem;
+    height: 6.5rem;
+    margin: 0 auto;
+}

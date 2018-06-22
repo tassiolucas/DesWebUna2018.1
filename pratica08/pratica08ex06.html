@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Prat.08 Exerc.06</title>
+    <script src="pratica08ex06.js"></script>
+    <link rel="stylesheet" href="pratica08ex06.css">
+</head>
+<body>
+    <h3>Jogo Lotérico</h3>
+
+    <div class="aposta">
+        Digite um número entre 1 e 100 não repetido: <input id="num1" type="text"> <br/> 
+        Digite um número entre 1 e 100 não repetido: <input id="num2" type="text"> <br/>
+        Digite um número entre 1 e 100 não repetido: <input id="num3" type="text"> <br/>
+        Digite um número entre 1 e 100 não repetido: <input id="num4" type="text"> <br/>
+        Digite um número entre 1 e 100 não repetido: <input id="num5" type="text"> <br/><br/>
+        <button onclick="sortear ()">Sortear</button>
+
+    </div>
+
+    <div id="valor">
+        Valor acumulado <br><br>
+        R$ 1.000.000
+    </div> 
+    
+    <h3>Números apostados</h3>
+    <div id="numeros"></div>
+    
+    <h3>Números sorteados</h3>
+    <div id="resultado"></div>
+
+    <h3>Prêmio</h3>
+    <div id="premio"></div>
+</body>
+</html>

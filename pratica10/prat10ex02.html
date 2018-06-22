@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Prat.10 Exerc.02</title>
+    <link rel="stylesheet" href="prat10ex02.css">
+    <script src="prat10ex02.js"></script>
+</head>
+<body>
+    <table onmouseout="apagar ()">
+        <thead>
+            <th>Disciplina</th>
+            <th>Aluno</th>
+            <th>P1</th>
+            <th>P2</th>
+            <th>Total</th>
+        </thead>
+        <tbody>
+            <tr onmouseover="detalhes ('line1')" target="blank_" class="corpo">
+                <td rowspan="6">Web</td>
+                <td>Ana</td>
+                <td>29</td>
+                <td>17</td>
+                <td>46</td>
+            </tr>
+            <tr onmouseover="detalhes ('line2')" target="blank_" class="corpo">
+                <td>Eva</td>
+                <td>27</td>
+                <td>17</td>
+                <td>44</td>
+            </tr>
+            <tr onmouseover="detalhes ('line3')" target="blank_" class="corpo">
+                <td>Gil</td>
+                <td>28</td>
+                <td>15</td>
+                <td>43</td>
+            </tr>
+            <tr onmouseover="detalhes ('line4')" target="blank_" class="corpo">
+                <td>Ise</td>
+                <td>25</td>
+                <td>15</td>
+                <td>40</td>
+            </tr>
+            <tr onmouseover="detalhes ('line5')" target="blank_" class="corpo">
+                <td>Ive</td>
+                <td>26</td>
+                <td>20</td>
+                <td>46</td>
+            </tr>
+            <tr onmouseover="detalhes ('line6')" target="blank_" class="foot">
+                <td>Média Web</td>
+                <td colspan="3">43,8</td>
+            </tr>
+            <tr onmouseover="detalhes ('line7')" target="blank_" class="corpo">
+                <td rowspan="6">Lógica de Programação</td>
+                <td>Ana</td>
+                <td>29</td>
+                <td>17</td>
+                <td>46</td>
+            </tr>
+            <tr onmouseover="detalhes ('line8')" target="blank_" class="corpo">
+                <td>Eva</td>
+                <td colspan="2">27</td>
+                <td>44</td>
+            </tr>
+            <tr onmouseover="detalhes ('line9')" target="blank_" class="corpo">
+                <td>Gil</td>
+                <td>28</td>
+                <td>15</td>
+                <td>43</td>
+            </tr>
+            <tr onmouseover="detalhes ('line10')" target="blank_" class="corpo">
+                <td>Ise</td>
+                <td colspan="2">25</td>
+                <td>40</td>
+            </tr>
+            <tr onmouseover="detalhes ('line11')" target="blank_" class="corpo">
+                <td>Ive</td>
+                <td>26</td>
+                <td>20</td>
+                <td>46</td>
+            </tr>
+            <tr onmouseover="detalhes ('line12')" target="blank_" class="foot">
+                <td>Média Lógica de Program.</td>
+                <td colspan="3">43,8</td>
+            </tr>
+        </tbody>
+    </table>
+    <div><br><br></div>
+    <div id="texto"></div>
+</body>
+</html>

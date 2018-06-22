@@ -1,0 +1,28 @@
+body{
+    width: 75rem;
+    margin: 0 auto;
+    background-color: #050c4f;
+}
+div{
+    margin: 7px;
+}
+#poster1, #poster2, #poster3, #poster4, #poster5{
+    float: left;
+}
+#rodape{
+    clear: left;
+    border: 0.3rem gainsboro double;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    color: gainsboro;
+    height: 7rem;
+}
+.titulo{
+    border: 0.3rem gainsboro double;
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: fantasy;
+    color: gainsboro;
+    margin-top: 2rem;
+}
